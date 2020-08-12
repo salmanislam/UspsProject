@@ -1,0 +1,853 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4135140100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should able to login using Sign-On Feature",
+        "description": "",
+        "id": "users-ability-to-login;user-should-able-to-login-using-sign-on-feature;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 48200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4344243800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to USPS home page",
+            "match": {
+              "location": "UspsLoginSteps.navigate_to_USPS_com_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 560340200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to usps login page",
+            "match": {
+              "location": "UspsLoginSteps.navigate_to_usps_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4196323200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill with valid \"urbaneagles123\" and \"Eagles@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urbaneagles123",
+                  "offset": 17
+                },
+                {
+                  "val": "Eagles@123",
+                  "offset": 38
+                }
+              ],
+              "location": "UspsLoginSteps.fill_with_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4955723700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on sign in button",
+            "match": {
+              "location": "UspsLoginSteps.click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Hover over the username from home page and varify the login by username",
+            "match": {
+              "location": "UspsLoginSteps.hover_over_the_username_from_home_page_and_varify_the_login_by_username()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@usps"
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to login",
+    "description": "",
+    "id": "users-ability-to-login",
+    "keyword": "Feature",
+    "uri": "01.UspsLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@usps"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3370295300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should able to get city information using lookup zipcode feature",
+        "description": "",
+        "id": "users-ability-to-lookup-city-using-zipcode;user-should-able-to-get-city-information-using-lookup-zipcode-feature;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 141100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3868689200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to USPS home page",
+            "match": {
+              "location": "UspsLookupZipCodeSteps.go_to_USPS_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3233061700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hover over mail \u0026 ship and click on lookup a zipcode",
+            "match": {
+              "location": "UspsLookupZipCodeSteps.hover_over_mail_ship_and_click_on_lookup_a_zipcode()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4122444500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on cities by zipcode",
+            "match": {
+              "location": "UspsLookupZipCodeSteps.click_on_cities_by_zipcode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2200401300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Insert a valid \"11218\" and submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11218",
+                  "offset": 16
+                }
+              ],
+              "location": "UspsLookupZipCodeSteps.insert_a_valid_and_submit(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222363300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Varify it return valid cityname against the zipcode",
+            "match": {
+              "location": "UspsLookupZipCodeSteps.varify_it_return_valid_cityname_against_the_zipcode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@usps"
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to lookup city using zipcode",
+    "description": "",
+    "id": "users-ability-to-lookup-city-using-zipcode",
+    "keyword": "Feature",
+    "uri": "02.UspsLookupZipcode.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@usps"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3448096600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should able to calculate using calculate a price feature",
+        "description": "",
+        "id": "users-ability-to-calculate-a-shiping-price;user-should-able-to-calculate-using-calculate-a-price-feature;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 104400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3367058500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to USPS.com home page",
+            "match": {
+              "location": "UspsCalculatePriceSteps.navigate_to_USPS_com_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3318862600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hover over mail \u0026 ship and click on Calculate a price",
+            "match": {
+              "location": "UspsCalculatePriceSteps.hover_over_mail_ship_and_click_on_Calculate_a_price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1855759200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on calculate postcard price",
+            "match": {
+              "location": "UspsCalculatePriceSteps.click_on_calculate_postcard_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181510000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill with \"2\" and \"2\" quantities and click on calculate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 11
+                },
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "UspsCalculatePriceSteps.fill_with_and_quantities_and_click_on_calculate(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1157230400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Varify the total price is correct",
+            "match": {
+              "location": "UspsCalculatePriceSteps.varify_the_total_price_is_correct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@usps"
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to calculate a shiping price",
+    "description": "",
+    "id": "users-ability-to-calculate-a-shiping-price",
+    "keyword": "Feature",
+    "uri": "03.UspsCalculatePrice.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@usps"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3393616200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should able to track using tracking feature with valid and invalid information",
+        "description": "",
+        "id": "users-ability-to-track-a-shipment;user-should-able-to-track-using-tracking-feature-with-valid-and-invalid-information;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 92700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3420968400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to USPS.com home page",
+            "match": {
+              "location": "UspsCalculatePriceSteps.navigate_to_USPS_com_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3165068700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hover over to track and manage and click on tracking",
+            "match": {
+              "location": "UspsTrackingSteps.hover_over_to_track_and_manage_and_click_on_tracking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3315481700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Insert valid \"9374889727009082699535\" and click on track button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9374889727009082699535",
+                  "offset": 14
+                }
+              ],
+              "location": "UspsTrackingSteps.insert_valid_and_click_on_track_button(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2564360700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify valid tracking information",
+            "match": {
+              "location": "UspsTrackingSteps.verify_valid_tracking_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6005595200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Insert invalid \"11001902004365000245082310\" and click on track button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11001902004365000245082310",
+                  "offset": 16
+                }
+              ],
+              "location": "UspsTrackingSteps.insert_invalid_and_click_on_track_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2170801100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify invalid tracking information",
+            "match": {
+              "location": "UspsTrackingSteps.verify_invalid_tracking_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@usps"
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to track a shipment",
+    "description": "",
+    "id": "users-ability-to-track-a-shipment",
+    "keyword": "Feature",
+    "uri": "04.UspsTrackingShipment.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@usps"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3395074200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should able to modify shopping cart.",
+        "description": "",
+        "id": "users-ability-to-add-goods-on-shopping-cart.;user-should-able-to-modify-shopping-cart.",
+        "after": [
+          {
+            "result": {
+              "duration": 112800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3616275300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Visit to USPS.com home page",
+            "match": {
+              "location": "UspsShoppingCartSteps.visit_to_USPS_com_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1406894300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hover over postal Store and Click on Stamps.",
+            "match": {
+              "location": "UspsShoppingCartSteps.hover_over_postal_Store_and_Click_on_Stamps()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3150383900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on U.S. Flag",
+            "match": {
+              "location": "UspsShoppingCartSteps.click_on_U_S_Flag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1114287900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Add to Cart.",
+            "match": {
+              "location": "UspsShoppingCartSteps.click_on_Add_to_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2442902500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on keep shopping.",
+            "match": {
+              "location": "UspsShoppingCartSteps.click_on_keep_shopping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2805603400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Cards \u0026 Envelopes link.",
+            "match": {
+              "location": "UspsShoppingCartSteps.click_on_Cards_Envelopes_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2562566000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Crafty Gingham Magnetic Note List.",
+            "match": {
+              "location": "UspsShoppingCartSteps.click_on_Crafty_Gingham_Magnetic_Note_List()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1121725700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Add to cart.",
+            "match": {
+              "location": "UspsShoppingCartSteps.click_on_Add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3602365600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on View cart.",
+            "match": {
+              "location": "UspsShoppingCartSteps.click_on_View_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3817580600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Clear shopping cart",
+            "match": {
+              "location": "UspsShoppingCartSteps.click_on_Clear_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2148370100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Varify the Shoppoing cart is clear.",
+            "match": {
+              "location": "UspsShoppingCartSteps.varify_the_Shoppoing_cart_is_clear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to add goods on shopping cart.",
+    "description": "",
+    "id": "users-ability-to-add-goods-on-shopping-cart.",
+    "keyword": "Feature",
+    "uri": "05.UspsShoppingCart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@usps"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3432301200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should able to schedule a pickup request using Schedule a Pickup service",
+        "description": "",
+        "id": "users-ability-to-request-a-pickup;user-should-able-to-schedule-a-pickup-request-using-schedule-a-pickup-service",
+        "after": [
+          {
+            "result": {
+              "duration": 41800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3794717300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Visit Usps Homepage",
+            "match": {
+              "location": "UspsScheduleAPickupSteps.visit_Usps_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3723929800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hover over mail and ship and click on Schedule a pickup",
+            "match": {
+              "location": "UspsScheduleAPickupSteps.hover_over_mail_and_ship_and_click_on_Schedule_a_pickup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1053634000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Insert Pickup location details.",
+            "match": {
+              "location": "UspsScheduleAPickupSteps.insert_Pickup_location_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2099489500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on check availability",
+            "match": {
+              "location": "UspsScheduleAPickupSteps.click_on_check_availability()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067958500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify if service is available",
+            "match": {
+              "location": "UspsScheduleAPickupSteps.verify_if_service_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to request a pickup",
+    "description": "",
+    "id": "users-ability-to-request-a-pickup",
+    "keyword": "Feature",
+    "uri": "06.UspsScheduleAPickup.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@usps"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

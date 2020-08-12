@@ -1,0 +1,4 @@
+[INFO ] 2020-08-10 16:19:07.643 [main] BeforeActions - This is info
+[ERROR] 2020-08-10 16:19:07.645 [main] BeforeActions - This is error
+[WARN ] 2020-08-10 16:19:07.645 [main] BeforeActions - This is warn
+[FATAL] 2020-08-10 16:19:07.645 [main] BeforeActions - This is fatal

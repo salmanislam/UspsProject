@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="119596" started-at="2020-08-12T03:04:30Z" finished-at="2020-08-12T03:06:29Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="119596" started-at="2020-08-12T03:04:30Z" finished-at="2020-08-12T03:06:29Z">
+      <class name="bdd.runners.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="setUpClass" is-config="true" duration-ms="157" started-at="2020-08-11T20:04:30Z" finished-at="2020-08-11T20:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="feature" duration-ms="18333" started-at="2020-08-11T20:04:30Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-11T20:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="feature" duration-ms="17030" started-at="2020-08-11T20:04:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-11T20:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to lookup city using zipcode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="feature" duration-ms="13342" started-at="2020-08-11T20:05:05Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-11T20:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to calculate a shiping price]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="feature" duration-ms="24057" started-at="2020-08-11T20:05:19Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-11T20:05:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to track a shipment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="feature" duration-ms="31198" started-at="2020-08-11T20:05:43Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-11T20:06:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to add goods on shopping cart.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="feature" duration-ms="15177" started-at="2020-08-11T20:06:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-11T20:06:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to request a pickup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="writeExtentReport" is-config="true" duration-ms="8" started-at="2020-08-11T20:06:29Z" finished-at="2020-08-11T20:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:bdd.runners.RunnerClass@13c78c0b]" name="tearDownClass" is-config="true" duration-ms="229" started-at="2020-08-11T20:06:29Z" finished-at="2020-08-11T20:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bdd.runners.RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
