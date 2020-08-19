@@ -39,6 +39,7 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
@@ -52,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Aug 11, 2020 08:04:30 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 16, 2020 11:41:59 AM</span>
 				</a>
 			</li>
 			<li>
@@ -78,6 +79,8 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -139,10 +142,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='83.333%'><span class='strong'>5</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='16.667%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -154,10 +157,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='83.333%'><span class='strong'>5</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='16.667%'>1</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -169,10 +172,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>37</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='91.892%'><span class='strong'>34</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='2.703%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='5.405%'>2</span> others
 				</div>
 			</div>
 		</div>
@@ -189,12 +192,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Users ability to login</span>
-						<span class='test-time'>Aug 11, 2020 08:04:30 PM</span>
+						<span class='test-time'>Aug 16, 2020 11:41:59 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 18s+220ms</span>
+	<span class='duration right label'>0h 0m 17s+862ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User should able to login using Sign-On Feature</span>
@@ -242,12 +245,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>Users ability to lookup city using zipcode</span>
-						<span class='test-time'>Aug 11, 2020 08:04:48 PM</span>
+						<span class='test-time'>Aug 16, 2020 11:42:17 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='10' status='pass'>
-	<span class='duration right label'>0h 0m 17s+26ms</span>
+	<span class='duration right label'>0h 0m 17s+441ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User should able to get city information using lookup zipcode feature</span>
@@ -295,12 +298,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='17'>
 					<div class='test-heading'>
 						<span class='test-name'>Users ability to calculate a shiping price</span>
-						<span class='test-time'>Aug 11, 2020 08:05:05 PM</span>
+						<span class='test-time'>Aug 16, 2020 11:42:34 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='18' status='pass'>
-	<span class='duration right label'>0h 0m 13s+338ms</span>
+	<span class='duration right label'>0h 0m 19s+965ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User should able to calculate using calculate a price feature</span>
@@ -348,12 +351,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='25'>
 					<div class='test-heading'>
 						<span class='test-name'>Users ability to track a shipment</span>
-						<span class='test-time'>Aug 11, 2020 08:05:19 PM</span>
+						<span class='test-time'>Aug 16, 2020 11:42:54 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='26' status='pass'>
-	<span class='duration right label'>0h 0m 24s+50ms</span>
+	<span class='duration right label'>0h 0m 24s+536ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User should able to track using tracking feature with valid and invalid information</span>
@@ -405,12 +408,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='34'>
 					<div class='test-heading'>
 						<span class='test-name'>Users ability to add goods on shopping cart.</span>
-						<span class='test-time'>Aug 11, 2020 08:05:43 PM</span>
+						<span class='test-time'>Aug 16, 2020 11:43:19 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='35' status='pass'>
-	<span class='duration right label'>0h 0m 31s+194ms</span>
+	<span class='duration right label'>0h 0m 38s+188ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User should able to modify shopping cart.</span>
@@ -510,15 +513,15 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='47'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='47'>
 					<div class='test-heading'>
 						<span class='test-name'>Users ability to request a pickup</span>
-						<span class='test-time'>Aug 11, 2020 08:06:14 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Aug 16, 2020 11:43:57 AM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='48' status='pass'>
-	<span class='duration right label'>0h 0m 15s+177ms</span>
+<div class='scenario node' test-id='48' status='fail'>
+	<span class='duration right label'>0h 0m 19s+535ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User should able to schedule a pickup request using Schedule a Pickup service</span>
@@ -540,28 +543,32 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='51' class='node and pass' status='pass'>
+		<li test-id='51' class='node and fail' status='fail'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And Insert Pickup location details.</span>
-				<div class='pre'>passed</div>
+				<div class='pre'><pre>java.lang.NullPointerException
+	at bdd.usps.PageActions.UspsScheduleAPickupActions.insertPickupLocationDetails(UspsScheduleAPickupActions.java:39)
+	at bdd.usps.stepDef.UspsScheduleAPickupSteps.insert_Pickup_location_details(UspsScheduleAPickupSteps.java:24)
+	at ?.And Insert Pickup location details.(06.UspsScheduleAPickup.feature:8)
+</pre></div>
 			
 		</li>
-		<li test-id='52' class='node and pass' status='pass'>
+		<li test-id='52' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And Click on check availability</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='53' class='node then pass' status='pass'>
+		<li test-id='53' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then Verify if service is available</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
 	</ul>
@@ -622,13 +629,14 @@
 					<div class='category-heading'>
 						<span class='category-name'>@usps</span>
 						<span class='category-status right'>
-							<span class='label pass'>10</span>
+							<span class='label pass'>9</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 10</span>
-							
+							<span class='label green accent-4 white-text'>Passed: 9</span>
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -643,54 +651,54 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 11, 2020 08:04:30 PM</td>
+										<td>Aug 16, 2020 11:41:59 AM</td>
 										<td class='linked' test-id='1'>Users ability to login</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:04:30 PM</td>
+										<td>Aug 16, 2020 11:41:59 AM</td>
 										<td class='linked' test-id='3'>Users ability to login.User should able to login using Sign-On Feature.User should able to login using Sign-On Feature</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:04:48 PM</td>
+										<td>Aug 16, 2020 11:42:17 AM</td>
 										<td class='linked' test-id='9'>Users ability to lookup city using zipcode</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:04:48 PM</td>
+										<td>Aug 16, 2020 11:42:17 AM</td>
 										<td class='linked' test-id='11'>Users ability to lookup city using zipcode.User should able to get city information using lookup zipcode feature.User should able to get city information using lookup zipcode feature</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:05 PM</td>
+										<td>Aug 16, 2020 11:42:34 AM</td>
 										<td class='linked' test-id='17'>Users ability to calculate a shiping price</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:05 PM</td>
+										<td>Aug 16, 2020 11:42:34 AM</td>
 										<td class='linked' test-id='19'>Users ability to calculate a shiping price.User should able to calculate using calculate a price feature.User should able to calculate using calculate a price feature</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:19 PM</td>
+										<td>Aug 16, 2020 11:42:54 AM</td>
 										<td class='linked' test-id='25'>Users ability to track a shipment</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:19 PM</td>
+										<td>Aug 16, 2020 11:42:54 AM</td>
 										<td class='linked' test-id='27'>Users ability to track a shipment.User should able to track using tracking feature with valid and invalid information.User should able to track using tracking feature with valid and invalid information</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:43 PM</td>
+										<td>Aug 16, 2020 11:43:19 AM</td>
 										<td class='linked' test-id='34'>Users ability to add goods on shopping cart.</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:06:14 PM</td>
+										<td>Aug 16, 2020 11:43:57 AM</td>
 										<td class='linked' test-id='47'>Users ability to request a pickup</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -701,13 +709,14 @@
 					<div class='category-heading'>
 						<span class='category-name'>@regression</span>
 						<span class='category-status right'>
-							<span class='label pass'>10</span>
+							<span class='label pass'>9</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 10</span>
-							
+							<span class='label green accent-4 white-text'>Passed: 9</span>
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -722,54 +731,54 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 11, 2020 08:04:30 PM</td>
+										<td>Aug 16, 2020 11:41:59 AM</td>
 										<td class='linked' test-id='1'>Users ability to login</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:04:30 PM</td>
+										<td>Aug 16, 2020 11:41:59 AM</td>
 										<td class='linked' test-id='3'>Users ability to login.User should able to login using Sign-On Feature.User should able to login using Sign-On Feature</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:04:48 PM</td>
+										<td>Aug 16, 2020 11:42:17 AM</td>
 										<td class='linked' test-id='9'>Users ability to lookup city using zipcode</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:04:48 PM</td>
+										<td>Aug 16, 2020 11:42:17 AM</td>
 										<td class='linked' test-id='11'>Users ability to lookup city using zipcode.User should able to get city information using lookup zipcode feature.User should able to get city information using lookup zipcode feature</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:05 PM</td>
+										<td>Aug 16, 2020 11:42:34 AM</td>
 										<td class='linked' test-id='17'>Users ability to calculate a shiping price</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:05 PM</td>
+										<td>Aug 16, 2020 11:42:34 AM</td>
 										<td class='linked' test-id='19'>Users ability to calculate a shiping price.User should able to calculate using calculate a price feature.User should able to calculate using calculate a price feature</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:19 PM</td>
+										<td>Aug 16, 2020 11:42:54 AM</td>
 										<td class='linked' test-id='25'>Users ability to track a shipment</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:19 PM</td>
+										<td>Aug 16, 2020 11:42:54 AM</td>
 										<td class='linked' test-id='27'>Users ability to track a shipment.User should able to track using tracking feature with valid and invalid information.User should able to track using tracking feature with valid and invalid information</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:05:43 PM</td>
+										<td>Aug 16, 2020 11:43:19 AM</td>
 										<td class='linked' test-id='34'>Users ability to add goods on shopping cart.</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 11, 2020 08:06:14 PM</td>
+										<td>Aug 16, 2020 11:43:57 AM</td>
 										<td class='linked' test-id='47'>Users ability to request a pickup</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -788,6 +797,71 @@
 	</div>
 </div>
 <!-- category view -->
+<div id='exception-view' class='view hide'>
+
+    <section id='controls'>
+        <div class='controls grey lighten-4'>
+            <!-- search -->
+            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
+                <a href="#" class='search-div'>
+                    <i class='material-icons'>search</i> Search
+                </a>
+
+                <div class='input-field left hide'>
+                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+                </div>
+
+            </div>
+            <!-- search -->
+        </div>
+    </section>
+
+    <div class='subview-left left'>
+
+        <div class='view-summary'>
+            <h5>Exceptions</h3>
+                <ul id='exception-collection' class='exception-collection'>
+
+                        <li class='exception displayed active'>
+                            <div class='exception-heading'>
+                                <span class='exception-name'>java.lang.NullPointerException</span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+                            </div>
+                            <div class='exception-content hide'>
+                                <div class='exception-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                    <tr>
+                                                        <td>Aug 16, 2020 11:44:17 AM</td>
+                                                        <td class='linked' test-id='51'>Users ability to request a pickup.User should able to schedule a pickup request using Schedule a Pickup service.And Insert Pickup location details.</td>
+                                                        <td><pre><pre>java.lang.NullPointerException
+	at bdd.usps.PageActions.UspsScheduleAPickupActions.insertPickupLocationDetails(UspsScheduleAPickupActions.java:39)
+	at bdd.usps.stepDef.UspsScheduleAPickupSteps.insert_Pickup_location_details(UspsScheduleAPickupSteps.java:24)
+	at ?.And Insert Pickup location details.(06.UspsScheduleAPickup.feature:8)
+</pre></pre></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class='subview-right left'>
+        <div class='view-summary'>
+            <h5 class='exception-name'></h5>
+        </div>
+    </div>
+</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -815,19 +889,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 11, 2020 08:04:30 PM</div>
+					<div class='panel-lead'>Aug 16, 2020 11:41:59 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 11, 2020 08:06:29 PM</div>
+			 		<div class='panel-lead'>Aug 16, 2020 11:44:17 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 59s+126ms</div>
+					<div class='panel-lead'>0h 2m 17s+638ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -844,20 +918,20 @@
 						</tr>
 						<tr>
 							<td>@usps</td>
-							<td>10</td>
-							<td>0</td>
+							<td>9</td>
+							<td>1</td>
 							<td>0</td>
 							<td>
-									100%
+									90%
 							</td>
 						</tr>
 						<tr>
 							<td>@regression</td>
-							<td>10</td>
-							<td>0</td>
+							<td>9</td>
+							<td>1</td>
 							<td>0</td>
 							<td>
-									100%
+									90%
 							</td>
 						</tr>
 					</table>
@@ -873,31 +947,31 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 6,
-				failParent: 0,
+				passParent: 5,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 6,
-				failChild: 0,
+				passChild: 5,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 1,
 				
-				passGrandChild: 37,
-				failGrandChild: 0,
+				passGrandChild: 34,
+				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 0,
+				skipGrandChild: 2,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 0,
+				exceptionsGrandChild: 3,
 			};
 		</script>
 		

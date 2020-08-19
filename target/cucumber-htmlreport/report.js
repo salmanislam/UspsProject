@@ -75,7 +75,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4135140100,
+  "duration": 4137263300,
   "status": "passed"
 });
 formatter.scenario({
@@ -129,14 +129,14 @@ formatter.match({
   "location": "UspsLoginSteps.navigate_to_USPS_com_home_page()"
 });
 formatter.result({
-  "duration": 4344243800,
+  "duration": 4067504200,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsLoginSteps.navigate_to_usps_login_page()"
 });
 formatter.result({
-  "duration": 560340200,
+  "duration": 695889800,
   "status": "passed"
 });
 formatter.match({
@@ -153,25 +153,25 @@ formatter.match({
   "location": "UspsLoginSteps.fill_with_valid_and(String,String)"
 });
 formatter.result({
-  "duration": 4196323200,
+  "duration": 3949149000,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsLoginSteps.click_on_sign_in_button()"
 });
 formatter.result({
-  "duration": 4955723700,
+  "duration": 4982050900,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsLoginSteps.hover_over_the_username_from_home_page_and_varify_the_login_by_username()"
 });
 formatter.result({
-  "duration": 11500,
+  "duration": 10800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 48200,
+  "duration": 47700,
   "status": "passed"
 });
 formatter.uri("02.UspsLookupZipcode.feature");
@@ -249,7 +249,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3370295300,
+  "duration": 3370522600,
   "status": "passed"
 });
 formatter.scenario({
@@ -302,21 +302,21 @@ formatter.match({
   "location": "UspsLookupZipCodeSteps.go_to_USPS_home_page()"
 });
 formatter.result({
-  "duration": 3868689200,
+  "duration": 3964331700,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsLookupZipCodeSteps.hover_over_mail_ship_and_click_on_lookup_a_zipcode()"
 });
 formatter.result({
-  "duration": 3233061700,
+  "duration": 3624149100,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsLookupZipCodeSteps.click_on_cities_by_zipcode()"
 });
 formatter.result({
-  "duration": 4122444500,
+  "duration": 4126695900,
   "status": "passed"
 });
 formatter.match({
@@ -329,18 +329,18 @@ formatter.match({
   "location": "UspsLookupZipCodeSteps.insert_a_valid_and_submit(String)"
 });
 formatter.result({
-  "duration": 2200401300,
+  "duration": 2169318900,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsLookupZipCodeSteps.varify_it_return_valid_cityname_against_the_zipcode()"
 });
 formatter.result({
-  "duration": 222363300,
+  "duration": 176235400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 141100,
+  "duration": 189900,
   "status": "passed"
 });
 formatter.uri("03.UspsCalculatePrice.feature");
@@ -420,7 +420,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3448096600,
+  "duration": 3372085600,
   "status": "passed"
 });
 formatter.scenario({
@@ -474,21 +474,21 @@ formatter.match({
   "location": "UspsCalculatePriceSteps.navigate_to_USPS_com_home_page()"
 });
 formatter.result({
-  "duration": 3367058500,
+  "duration": 4127478000,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsCalculatePriceSteps.hover_over_mail_ship_and_click_on_Calculate_a_price()"
 });
 formatter.result({
-  "duration": 3318862600,
+  "duration": 6026097300,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsCalculatePriceSteps.click_on_calculate_postcard_price()"
 });
 formatter.result({
-  "duration": 1855759200,
+  "duration": 5112688700,
   "status": "passed"
 });
 formatter.match({
@@ -505,18 +505,18 @@ formatter.match({
   "location": "UspsCalculatePriceSteps.fill_with_and_quantities_and_click_on_calculate(String,String)"
 });
 formatter.result({
-  "duration": 181510000,
+  "duration": 201493400,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsCalculatePriceSteps.varify_the_total_price_is_correct()"
 });
 formatter.result({
-  "duration": 1157230400,
+  "duration": 1117307600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 104400,
+  "duration": 32900,
   "status": "passed"
 });
 formatter.uri("04.UspsTrackingShipment.feature");
@@ -601,7 +601,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3393616200,
+  "duration": 3363515200,
   "status": "passed"
 });
 formatter.scenario({
@@ -662,14 +662,14 @@ formatter.match({
   "location": "UspsCalculatePriceSteps.navigate_to_USPS_com_home_page()"
 });
 formatter.result({
-  "duration": 3420968400,
+  "duration": 4212258900,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsTrackingSteps.hover_over_to_track_and_manage_and_click_on_tracking()"
 });
 formatter.result({
-  "duration": 3165068700,
+  "duration": 3113006400,
   "status": "passed"
 });
 formatter.match({
@@ -682,14 +682,14 @@ formatter.match({
   "location": "UspsTrackingSteps.insert_valid_and_click_on_track_button(String)"
 });
 formatter.result({
-  "duration": 3315481700,
+  "duration": 3141015300,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsTrackingSteps.verify_valid_tracking_information()"
 });
 formatter.result({
-  "duration": 2564360700,
+  "duration": 2489094400,
   "status": "passed"
 });
 formatter.match({
@@ -702,18 +702,18 @@ formatter.match({
   "location": "UspsTrackingSteps.insert_invalid_and_click_on_track_button(String)"
 });
 formatter.result({
-  "duration": 6005595200,
+  "duration": 6059782900,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsTrackingSteps.verify_invalid_tracking_information()"
 });
 formatter.result({
-  "duration": 2170801100,
+  "duration": 2148540000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 92700,
+  "duration": 97900,
   "status": "passed"
 });
 formatter.uri("05.UspsShoppingCart.feature");
@@ -735,7 +735,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3395074200,
+  "duration": 3377147400,
   "status": "passed"
 });
 formatter.scenario({
@@ -805,81 +805,81 @@ formatter.match({
   "location": "UspsShoppingCartSteps.visit_to_USPS_com_home_page()"
 });
 formatter.result({
-  "duration": 3616275300,
+  "duration": 3487773000,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.hover_over_postal_Store_and_Click_on_Stamps()"
 });
 formatter.result({
-  "duration": 1406894300,
+  "duration": 1801809000,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.click_on_U_S_Flag()"
 });
 formatter.result({
-  "duration": 3150383900,
+  "duration": 3144353600,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.click_on_Add_to_Cart()"
 });
 formatter.result({
-  "duration": 1114287900,
+  "duration": 1110809900,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.click_on_keep_shopping()"
 });
 formatter.result({
-  "duration": 2442902500,
+  "duration": 2469295000,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.click_on_Cards_Envelopes_link()"
 });
 formatter.result({
-  "duration": 2805603400,
+  "duration": 3951568200,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.click_on_Crafty_Gingham_Magnetic_Note_List()"
 });
 formatter.result({
-  "duration": 2562566000,
+  "duration": 3260814500,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.click_on_Add_to_cart()"
 });
 formatter.result({
-  "duration": 1121725700,
+  "duration": 4139717700,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.click_on_View_cart()"
 });
 formatter.result({
-  "duration": 3602365600,
+  "duration": 4648082700,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.click_on_Clear_shopping_cart()"
 });
 formatter.result({
-  "duration": 3817580600,
+  "duration": 4641849200,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsShoppingCartSteps.varify_the_Shoppoing_cart_is_clear()"
 });
 formatter.result({
-  "duration": 2148370100,
+  "duration": 2144596500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 112800,
+  "duration": 85700,
   "status": "passed"
 });
 formatter.uri("06.UspsScheduleAPickup.feature");
@@ -901,7 +901,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3432301200,
+  "duration": 3401222000,
   "status": "passed"
 });
 formatter.scenario({
@@ -941,39 +941,38 @@ formatter.match({
   "location": "UspsScheduleAPickupSteps.visit_Usps_Homepage()"
 });
 formatter.result({
-  "duration": 3794717300,
+  "duration": 4200272400,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsScheduleAPickupSteps.hover_over_mail_and_ship_and_click_on_Schedule_a_pickup()"
 });
 formatter.result({
-  "duration": 3723929800,
+  "duration": 11926963800,
   "status": "passed"
 });
 formatter.match({
   "location": "UspsScheduleAPickupSteps.insert_Pickup_location_details()"
 });
 formatter.result({
-  "duration": 1053634000,
-  "status": "passed"
+  "duration": 376100,
+  "error_message": "java.lang.NullPointerException\r\n\tat bdd.usps.PageActions.UspsScheduleAPickupActions.insertPickupLocationDetails(UspsScheduleAPickupActions.java:39)\r\n\tat bdd.usps.stepDef.UspsScheduleAPickupSteps.insert_Pickup_location_details(UspsScheduleAPickupSteps.java:24)\r\n\tat ✽.And Insert Pickup location details.(06.UspsScheduleAPickup.feature:8)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "UspsScheduleAPickupSteps.click_on_check_availability()"
 });
 formatter.result({
-  "duration": 2099489500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "UspsScheduleAPickupSteps.verify_if_service_is_available()"
 });
 formatter.result({
-  "duration": 1067958500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 41800,
+  "duration": 38600,
   "status": "passed"
 });
 });

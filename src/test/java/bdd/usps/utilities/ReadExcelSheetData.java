@@ -13,8 +13,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcelSheetData {
 
+	ReadExcelSheetData ReadExcelSheetDataObj;
 
-	public static Map<String, Map<String, String>> setMapData() throws IOException  {
+	public static Map<String, Map<String, String>> setMapData() throws IOException {
+
+		// URL url = getClass().getResource("TestDataSheet.xlsx");
+		//File file = new File(url.getPath());
 
 		String path = "C:\\Users\\getsa\\Downloads\\Eclipse For EE\\eclipse-workspace\\UspsProject\\src\\test\\resources\\dataSheets\\TestDataSheet.xlsx";
 
@@ -59,12 +63,11 @@ public class ReadExcelSheetData {
 	// Method to retrieve value
 	public static String getMapData(String key) throws IOException {
 
-		Map<String, String> m = setMapData().get("DataSheet");
+		Map<String, String> m = ReadExcelSheetData.setMapData().get("DataSheet");
 		String value = m.get(key);
 
 		return value;
 
 	}
-	
-	
+
 }

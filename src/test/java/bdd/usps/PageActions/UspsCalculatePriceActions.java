@@ -51,6 +51,7 @@ public class UspsCalculatePriceActions {
 
 		String confMsg = uspsLoginLocatorsObj.txtTotal.getText();
 		Assert.assertEquals(confMsg, "$1.80");
+		
 		Thread.sleep(1000);
 		SetupDrivers.driver.close();
 	}

@@ -14,7 +14,7 @@ import junit.framework.Assert;
 
 public class UspsScheduleAPickupActions {
 	UspsLocators uspsLocatorsObj;
-
+	
 	public UspsScheduleAPickupActions() {
 		uspsLocatorsObj = new UspsLocators();
 		PageFactory.initElements(SetupDrivers.driver, uspsLocatorsObj);
