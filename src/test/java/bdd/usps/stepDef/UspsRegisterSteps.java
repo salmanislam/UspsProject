@@ -31,6 +31,6 @@ public class UspsRegisterSteps {
 
 	@Then("^Submit the information$")
 	public void submit_the_information() throws Throwable {
-		UspsRegisterActionsObj.goToUspsHomepage();
+		UspsRegisterActionsObj.goToUspsHomepage2();
 	}
 }

@@ -4,6 +4,7 @@ C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\j
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\stepDef\UspsCalculatePriceSteps.java
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\PageActions\UspsShoppingCartActions.java
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\utilities\BeforeActions.java
+C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\PageActions\UspsRegisterActions.java
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\PageElements\UspsLocators.java
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\stepDef\UspsShoppingCartSteps.java
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\utilities\SetupDrivers.java
@@ -16,3 +17,4 @@ C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\j
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\stepDef\UspsScheduleAPickupSteps.java
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\stepDef\UspsLookupZipCodeSteps.java
 C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\utilities\AfterActions.java
+C:\Users\getsa\Downloads\Eclipse For EE\eclipse-workspace\UspsProject\src\test\java\bdd\usps\stepDef\UspsRegisterSteps.java

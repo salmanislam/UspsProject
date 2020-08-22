@@ -6,7 +6,119 @@
         "before": [
           {
             "result": {
-              "duration": 4137263300,
+              "duration": 4436407200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should able to register using valid information",
+        "description": "",
+        "id": "users-ability-to-register;user-should-able-to-register-using-valid-information",
+        "after": [
+          {
+            "result": {
+              "duration": 162500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4094115300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to USPS.com home page.",
+            "match": {
+              "location": "UspsRegisterSteps.navigate_to_USPS_com_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 903545700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to usps register page",
+            "match": {
+              "location": "UspsRegisterSteps.navigate_to_usps_register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 502977600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Navigate to signup now button",
+            "match": {
+              "location": "UspsRegisterSteps.navigate_to_signup_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9454493000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Fill up the information",
+            "match": {
+              "location": "UspsRegisterSteps.fill_up_the_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1311210500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Submit the information",
+            "match": {
+              "location": "UspsRegisterSteps.submit_the_information()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to register",
+    "description": "",
+    "id": "users-ability-to-register",
+    "keyword": "Feature",
+    "uri": "00.UspsRegister.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@usps"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3392733800,
               "status": "passed"
             },
             "match": {
@@ -21,7 +133,7 @@
         "after": [
           {
             "result": {
-              "duration": 47700,
+              "duration": 91100,
               "status": "passed"
             },
             "match": {
@@ -34,7 +146,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4067504200,
+              "duration": 3637409400,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 695889800,
+              "duration": 601284900,
               "status": "passed"
             },
             "line": 7,
@@ -58,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 3949149000,
+              "duration": 4088362800,
               "status": "passed"
             },
             "line": 8,
@@ -84,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 4982050900,
+              "duration": 762769300,
               "status": "passed"
             },
             "line": 9,
@@ -96,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 10800,
+              "duration": 64300,
               "status": "passed"
             },
             "line": 10,
@@ -142,7 +254,7 @@
         "before": [
           {
             "result": {
-              "duration": 3370522600,
+              "duration": 3673105700,
               "status": "passed"
             },
             "match": {
@@ -157,7 +269,7 @@
         "after": [
           {
             "result": {
-              "duration": 189900,
+              "duration": 146900,
               "status": "passed"
             },
             "match": {
@@ -170,7 +282,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3964331700,
+              "duration": 3904072800,
               "status": "passed"
             },
             "line": 6,
@@ -182,7 +294,7 @@
           },
           {
             "result": {
-              "duration": 3624149100,
+              "duration": 3546084200,
               "status": "passed"
             },
             "line": 7,
@@ -194,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 4126695900,
+              "duration": 4123433500,
               "status": "passed"
             },
             "line": 8,
@@ -206,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 2169318900,
+              "duration": 2178576800,
               "status": "passed"
             },
             "line": 9,
@@ -227,7 +339,7 @@
           },
           {
             "result": {
-              "duration": 176235400,
+              "duration": 503277100,
               "status": "passed"
             },
             "line": 10,
@@ -273,7 +385,7 @@
         "before": [
           {
             "result": {
-              "duration": 3372085600,
+              "duration": 3405222300,
               "status": "passed"
             },
             "match": {
@@ -288,7 +400,7 @@
         "after": [
           {
             "result": {
-              "duration": 32900,
+              "duration": 189000,
               "status": "passed"
             },
             "match": {
@@ -301,7 +413,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4127478000,
+              "duration": 3673253100,
               "status": "passed"
             },
             "line": 5,
@@ -313,7 +425,7 @@
           },
           {
             "result": {
-              "duration": 6026097300,
+              "duration": 3112743300,
               "status": "passed"
             },
             "line": 6,
@@ -325,7 +437,7 @@
           },
           {
             "result": {
-              "duration": 5112688700,
+              "duration": 1404179900,
               "status": "passed"
             },
             "line": 7,
@@ -337,7 +449,7 @@
           },
           {
             "result": {
-              "duration": 201493400,
+              "duration": 177995800,
               "status": "passed"
             },
             "line": 8,
@@ -363,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 1117307600,
+              "duration": 1481059000,
               "status": "passed"
             },
             "line": 9,
@@ -409,7 +521,7 @@
         "before": [
           {
             "result": {
-              "duration": 3363515200,
+              "duration": 3424964800,
               "status": "passed"
             },
             "match": {
@@ -424,7 +536,7 @@
         "after": [
           {
             "result": {
-              "duration": 97900,
+              "duration": 127000,
               "status": "passed"
             },
             "match": {
@@ -437,7 +549,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4212258900,
+              "duration": 3941782100,
               "status": "passed"
             },
             "line": 5,
@@ -449,7 +561,7 @@
           },
           {
             "result": {
-              "duration": 3113006400,
+              "duration": 3464101300,
               "status": "passed"
             },
             "line": 6,
@@ -461,7 +573,7 @@
           },
           {
             "result": {
-              "duration": 3141015300,
+              "duration": 3330034500,
               "status": "passed"
             },
             "line": 7,
@@ -482,7 +594,7 @@
           },
           {
             "result": {
-              "duration": 2489094400,
+              "duration": 2851680100,
               "status": "passed"
             },
             "line": 8,
@@ -494,7 +606,7 @@
           },
           {
             "result": {
-              "duration": 6059782900,
+              "duration": 6000287700,
               "status": "passed"
             },
             "line": 9,
@@ -515,7 +627,7 @@
           },
           {
             "result": {
-              "duration": 2148540000,
+              "duration": 2197502400,
               "status": "passed"
             },
             "line": 10,
@@ -561,7 +673,7 @@
         "before": [
           {
             "result": {
-              "duration": 3377147400,
+              "duration": 3391051000,
               "status": "passed"
             },
             "match": {
@@ -576,7 +688,7 @@
         "after": [
           {
             "result": {
-              "duration": 85700,
+              "duration": 51600,
               "status": "passed"
             },
             "match": {
@@ -589,7 +701,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3487773000,
+              "duration": 3605120100,
               "status": "passed"
             },
             "line": 5,
@@ -601,7 +713,7 @@
           },
           {
             "result": {
-              "duration": 1801809000,
+              "duration": 3234655700,
               "status": "passed"
             },
             "line": 6,
@@ -613,7 +725,7 @@
           },
           {
             "result": {
-              "duration": 3144353600,
+              "duration": 3138668700,
               "status": "passed"
             },
             "line": 7,
@@ -625,7 +737,7 @@
           },
           {
             "result": {
-              "duration": 1110809900,
+              "duration": 1108909300,
               "status": "passed"
             },
             "line": 8,
@@ -637,7 +749,7 @@
           },
           {
             "result": {
-              "duration": 2469295000,
+              "duration": 2141297100,
               "status": "passed"
             },
             "line": 9,
@@ -649,7 +761,7 @@
           },
           {
             "result": {
-              "duration": 3951568200,
+              "duration": 3092826000,
               "status": "passed"
             },
             "line": 10,
@@ -661,7 +773,7 @@
           },
           {
             "result": {
-              "duration": 3260814500,
+              "duration": 3036834300,
               "status": "passed"
             },
             "line": 11,
@@ -673,7 +785,7 @@
           },
           {
             "result": {
-              "duration": 4139717700,
+              "duration": 4158636900,
               "status": "passed"
             },
             "line": 12,
@@ -685,7 +797,7 @@
           },
           {
             "result": {
-              "duration": 4648082700,
+              "duration": 3537751300,
               "status": "passed"
             },
             "line": 13,
@@ -697,7 +809,7 @@
           },
           {
             "result": {
-              "duration": 4641849200,
+              "duration": 4602791400,
               "status": "passed"
             },
             "line": 14,
@@ -709,7 +821,7 @@
           },
           {
             "result": {
-              "duration": 2144596500,
+              "duration": 2186914100,
               "status": "passed"
             },
             "line": 15,
@@ -745,7 +857,7 @@
         "before": [
           {
             "result": {
-              "duration": 3401222000,
+              "duration": 3399743100,
               "status": "passed"
             },
             "match": {
@@ -760,7 +872,7 @@
         "after": [
           {
             "result": {
-              "duration": 38600,
+              "duration": 126900,
               "status": "passed"
             },
             "match": {
@@ -773,7 +885,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4200272400,
+              "duration": 4314782400,
               "status": "passed"
             },
             "line": 6,
@@ -785,7 +897,7 @@
           },
           {
             "result": {
-              "duration": 11926963800,
+              "duration": 4199978500,
               "status": "passed"
             },
             "line": 7,
@@ -797,9 +909,8 @@
           },
           {
             "result": {
-              "duration": 376100,
-              "error_message": "java.lang.NullPointerException\r\n\tat bdd.usps.PageActions.UspsScheduleAPickupActions.insertPickupLocationDetails(UspsScheduleAPickupActions.java:39)\r\n\tat bdd.usps.stepDef.UspsScheduleAPickupSteps.insert_Pickup_location_details(UspsScheduleAPickupSteps.java:24)\r\n\tat ✽.And Insert Pickup location details.(06.UspsScheduleAPickup.feature:8)\r\n",
-              "status": "failed"
+              "duration": 1090947300,
+              "status": "passed"
             },
             "line": 8,
             "name": "Insert Pickup location details.",
@@ -810,7 +921,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2096543500,
+              "status": "passed"
             },
             "line": 9,
             "name": "Click on check availability",
@@ -821,7 +933,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1463486600,
+              "status": "passed"
             },
             "line": 10,
             "name": "Verify if service is available",

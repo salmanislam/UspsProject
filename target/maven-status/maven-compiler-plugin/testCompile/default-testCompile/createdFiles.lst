@@ -3,6 +3,7 @@ bdd\usps\stepDef\UspsTrackingSteps.class
 bdd\usps\PageActions\UspsLoginActions.class
 bdd\usps\stepDef\UspsLookupZipCodeSteps.class
 bdd\usps\PageElements\UspsLocators.class
+bdd\usps\stepDef\UspsRegisterSteps.class
 bdd\usps\stepDef\UspsScheduleAPickupSteps.class
 bdd\usps\stepDef\UspsCalculatePriceSteps.class
 bdd\usps\utilities\AfterActions.class
@@ -12,6 +13,7 @@ bdd\usps\utilities\ReadExcelSheetData.class
 bdd\usps\PageActions\UspsShoppingCartActions.class
 bdd\runners\RunnerClass.class
 bdd\usps\PageActions\UspsCalculatePriceActions.class
+bdd\usps\PageActions\UspsRegisterActions.class
 bdd\usps\utilities\BeforeActions.class
 bdd\usps\utilities\SetupDrivers.class
 bdd\usps\PageActions\UspsLookupZipCodeActions.class

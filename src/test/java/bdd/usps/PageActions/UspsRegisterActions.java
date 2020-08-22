@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
@@ -14,14 +16,17 @@ import bdd.usps.PageElements.UspsLocators;
 import bdd.usps.utilities.SetupDrivers;
 
 public class UspsRegisterActions {
+	
 	UspsLocators uspsLoginLocatorsObj;
-
+	static Logger log = LogManager.getLogger(UspsRegisterActions.class);
+	
 	public UspsRegisterActions() {
 		uspsLoginLocatorsObj = new UspsLocators();
 		PageFactory.initElements(SetupDrivers.driver, uspsLoginLocatorsObj);
 	}
 
 	public void goToUspsHomepage() {
+		log.info("Visiting USPS Webpage");
 		SetupDrivers.driver.manage().window().maximize();
 		SetupDrivers.driver.get("https://www.usps.com/");
 		SetupDrivers.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -29,14 +34,18 @@ public class UspsRegisterActions {
 	}
 
 	public void clickRegister() {
+		
 		uspsLoginLocatorsObj.clkRegister.click();
 	}
 
 	public void clickSignUp() {
+		log.info("Clicked On Register");
 		uspsLoginLocatorsObj.clkSignup.click();
 	}
 
 	public void fillRegInfo() throws InterruptedException, IOException {
+		log.info("Filiing User Information");
+		
 		Select lang = new Select(uspsLoginLocatorsObj.txtLanguage);
 		lang.selectByVisibleText("English");
 
@@ -92,12 +101,24 @@ public class UspsRegisterActions {
 		Select state = new Select(uspsLoginLocatorsObj.txtState);
 		state.selectByVisibleText("NY - New York");
 		uspsLoginLocatorsObj.txtZip1.sendKeys("11218");
-		uspsLoginLocatorsObj.txtVerAddr.click();
-		File screenshot = ((TakesScreenshot)SetupDrivers.driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshot, new File("C:\\TTSoftware\\screencaptures\\register.jpg"));
+		
 
+		File screenshot = ((TakesScreenshot)SetupDrivers.driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(screenshot, new File("C:\\Users\\getsa\\Downloads\\Eclipse For EE\\eclipse-workspace\\UspsProject\\src\\test\\resources\\screenshots\\register.jpg"));
+		
+		uspsLoginLocatorsObj.txtVerAddr.click();
+		
+		log.info("Form Successfully Filled");
+		log.info("Screenshot Captured");
 		Thread.sleep(1000);
 		
+	}
+
+	public void goToUspsHomepage2() {
+		SetupDrivers.driver.manage().window().maximize();
+		SetupDrivers.driver.get("https://www.usps.com/");
+		SetupDrivers.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		SetupDrivers.driver.close();
 	}
 
 }
