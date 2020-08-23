@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
@@ -46,14 +47,15 @@ public class UspsLoginActions {
 		File screenshot = ((TakesScreenshot)SetupDrivers.driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshot, new File("C:\\Users\\getsa\\Downloads\\Eclipse For EE\\eclipse-workspace\\UspsProject\\src\\test\\resources\\screenshots\\login.jpg"));
 		Thread.sleep(3000);
-//		uspsLoginLocatorsObj.passLoc.sendKeys(Keys.ENTER);
+		
+		//uspsLoginLocatorsObj.passLoc.sendKeys(Keys.ENTER);
 	}
 
-	public void clickSubmit() {
-//		uspsLoginLocatorsObj.submitLoc.click();
+	public void clickSubmit() throws InterruptedException {
+		uspsLoginLocatorsObj.submitLoc.click();
+		Thread.sleep(2000);
 		SetupDrivers.driver.get("https://www.usps.com/");
 		SetupDrivers.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		SetupDrivers.driver.close();
 	}
-
 }
